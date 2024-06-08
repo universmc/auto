@@ -5,7 +5,7 @@ const path = require('path');
 app.on('ready', () => {
   // Crée une nouvelle fenêtre
 const mainWindow = new BrowserWindow({
-    width: 340,
+    width: 987,
     height: 610,
     webPreferences: {
       nodeIntegration: false,

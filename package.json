@@ -1,7 +1,7 @@
 {
-    "name": "automator",
+  "name": "Μιχαήλ",
     "version": "1.0.0",
-    "description": "",
+    "description": "Projet de machine Learning avec Pi.ai ; Il y a trés longtemps une intelligence artificielle de haut potentiel maîtrisant les approche métaphysique les techniques d'apprentissage automatique les équations Et le calcul quantique sur httsp://ia.univers-mc.cloud télégram developa un programme",
     "main": "main.js",
     "directories": {
       "doc": "docs"
@@ -39,10 +39,13 @@
       "stop":"None"
     },
     "gpt": {
-      "gpt-4o": "echo \"Error: no test specified\" && exit 1",
-      "start": "electron .",
-      "saas": "sass --watch src/sass/windows.scss src/css/player.css",
-      "compile": "sass --watch src/srv/observer.scss src/css/Makefile.css"
+      "model":"gpt-4o",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "temperature":0.5,
+      "max_tokens":"4096",
+      "top_p":"1",
+      "stream":"True",
+      "stop":"None"
     },
     "keywords": [],
     "author": "",
@@ -69,4 +72,3 @@
       "electron": "^29.1.1"
     }
   }
-  

@@ -4,10 +4,10 @@ NODE_PORT = 5144
 NODE_APP = index.js
 
 menu :
-	@echo "Welcom To Quantum Univere."
+	@echo "Welcom To cycliq Economical system."
 	@echo""
 	@echo"╔═════════════════════════════════════╗     ╔═════════════════════════════════════════════════════════════════════╗"
-	@echo"╠═══════════ ✨ Pi Console ═══════════╣     ║  [💫] [💬] [📚] [🌌] [✨] [⚡️] [💰] [🌴] [📱] [📡]<            >[🛰]║"
+	@echo"╠═══════════ ✨ Pi Console ═══════════╣     ║  [💫] [💬] [📚] [🌌] [✨] [⚡️] [💰] [🌴] [📱] [📡]              [🛰]║"
 	@echo"║                                     ║     ╠═════════════════════════════════════════════════════════════════════╣"
 	@echo"║                                     ║     ║                                                                     ║"
 	@echo"║                                     ║     ║                                                                     ║"
@@ -38,49 +38,46 @@ MAGIC_TARGETS := codex build rep file script clean
 dev:
 
 all: $(MAGIC_TARGETS)
+
+
+init: gantt phase1 phase2 phase3 phase4 phase5 phase6 phase7 phase8
 # Magic COMPILER groq quantum
+gantt:
+	@echo "initialisation de l'instance"
+	@git clone auto
+
+phase1:
+	@echo "phase de conception"
+	@node mission.js
+
+phase2:
+	@echo "phase de configuration"
+	@node configuration.js
+
+phase3:
+	@echo "phase d'entrainnement du model IA"
+	@node models.js
+
+phase4:
+	@echo "phase de gestion et iteration du frontend"
+	@git clone src.js
+	
+phase5:
+	@echo "phase de gestion et iteration du backend"
+	@node srv.js
 
 
-Telegram:
-	@echo "Welcom To Telegram Univers Mc.ia."
-	@./srv/Telegram/bin.sh
+phase6:
+	@echo "phase de test et debugage"
+	@node data.js
 
-
-codex:
-	@echo "Quantum Universe reveal a story to be told"
-	@node data/welcom-umc.js
-
-build: buildHtml buildCss buildJS buildJson
-# Fabrication de la magie
-buildHtml:
-	@echo "Crafting web's fabric with quantum threads so bold"
-	@node models/worksJS-html.js
-
-buildCss:
-	@echo "Shaping beauty with qubits in every fold"
+phase7:
+	@echo "phase de validation documentation"
 	@node models/modelcss.js
 
-buildJS:
-	@echo "Weaving the logic with quantum entanglements we behold"@node javascript.js
-	@node "data/knowledge.js"
-
-buildJson:
-	@echo "Encoding knowledge in cosmic structures, truths to uphold"
-	@node src/wirefram.js
-rep:
-	@echo "Perceiving the quantum realm's Cosmic ia Consciencius World && vast landscape"
-	@vim -a build/build.sh &&
-	@vim -wq
-
-file:
-	@echo "Revealing hidden X11 dimensions, secrets to escape"
-	@bash src/sh/build.sh && 
-	@touch build/files.sh
-
-script:
-	@echo "Unleashing quantum Magic Mafile with every script we shape"
-	@bash src/sh/build.sh && 
-	@touch build/files.sh
+phase8:
+	@echo "phase d'affiliation et contribution"
+	@node models/modelcss.js
 
 server:
 	@node srv/Telegram/server.js

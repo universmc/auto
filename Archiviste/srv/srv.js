@@ -6,15 +6,12 @@ const { exec } = require('child_process');
 const fs = require('fs');
 const readline = require("readline");
 const Groq = require("groq-sdk");
-const id = require("./groq");
-const Telegram = require("./piBot")
 
 const app = express();
 
 // Charger le fichier de configuration
 const configPath = path.join(__dirname, 'config.json');
 const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
-
 
 // Configuration de Swagger
 const options = {
@@ -108,10 +105,6 @@ async function main() {
           {
             role: "system",
             content: config.systemContent || "✨_pi _ System is ready."
-          },
-          {
-            role: "assistant",
-            content: "bonjour je suis votre assistant au coeur de ce source dans le répertoire racine (./)"
           },
           {
             role: "user",

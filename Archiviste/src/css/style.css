@@ -12,30 +12,18 @@ body {
   background-color: #f4f4f4;
   color: #333;
 }
-.cms {
-  display: flex;
-  flex-direction: row;
-  background-color: #090012;
-  width: 80%;
-}
+
 header {
   display: flex;
-  flex-direction: column;
-  min-width: 50px;
-  background-color: #090012;
+  min-width: 100%;
+  background-color: #1c1b1b;
   color: white;
   text-align: center;
+  padding: 10px 0;
 }
-.row1 {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  min-height: 93vh;
-  padding: 0;
-  margin: 0;
-}
+
 main {
-  min-width: 90%;
+  margin: 20px;
 }
 .mainContent {
   display: flex;
@@ -48,7 +36,7 @@ main {
 }
 #sommaire {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: start;
   width: 100%;
   gap: 20px;
@@ -58,7 +46,7 @@ main {
   border-radius: 5px;
 }
 .picker {
-background-color:#090012;
+background-color:#333;
 border: none;
 }
 .modal-sheet .modal-dialog {
@@ -105,13 +93,11 @@ border: none;
 
 /* Ajoutez plus de styles ici selon vos besoins */
 footer {
-  display: flex;
-  min-height: 7vh;
-  justify-content:end;
-  background-color: #090012;
+  background-color: #333;
   color: white;
   text-align: center;
   padding: 10px 0;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }

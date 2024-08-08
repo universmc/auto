@@ -2,28 +2,54 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Gemini</title>
+    <title>about</title>
     <!-- Dans la section <head> -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="src/css/style.css">
-        <link rel="stylesheet" href="src/css/card.css">
+        <link rel="stylesheet" href="src/style/build.css">
+        <link rel="stylesheet" href="src/style/style.css">
 </head>
 <body>
-  <div class="cms">
-        <button class="btn picker" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">💫</button>
-        <div class="1"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal">💻</button></div>
-        <div class="1"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal">📱</button></div>
-        <div class="1"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal">📡</button></div>
-        <div class="1"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal">🛰</button></div></div>
-    <div class="row1">
     <header>
-      <div class="1"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal">💬</button></div>
-      <div class="2"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal2">📔</button></div>
-      <div class="3"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal3">🌌</button></div>
-      <div class="4"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal4">📚</button>    </div>
-      <div class="5"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal5">🏗️</button> </div>
-      <div class="6"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal6">💰</button></div>
-      <div class="7"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal7">✨</button> </div>
+      <div class="0[💫]">
+      <button class="btn picker" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        💫
+      </button>
+      </div>
+        <div class="1">
+            <button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            💬
+            </button>
+        </div>
+        <div class="2">
+            <button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+        📔
+            </button>
+        </div>
+        <div class="3">
+            <button type="button" class="btn btn-primary picker">
+        <a href="./src/html/menu/machineLearning/index.php">🌌</a>
+            </button>
+        </div>
+        <div class="4">
+            <button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+        📚
+            </button>    
+        </div>
+        <div class="5">
+            <button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+        🏗️
+            </button> 
+        </div>
+        <div class="6">
+            <button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+        💰
+        </button> 
+        </div>
+        <div class="7">
+            <button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
+        ✨
+        </button> 
+        </div>
 
 
   <!-- Modal 💬 -->
@@ -32,7 +58,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal 💬</h1>
+          <h1 class="modalTitre" id="exampleModalLabel">Modal 💬</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -74,7 +100,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">[📔.CODEX]</h1>
+          <h1 class="modalTitre">[📔.CODEX]</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -112,7 +138,7 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal 🌌</h1>
+              <h1 class="modalTitre">🌌.systemDream</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -130,7 +156,7 @@
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal 📚</h1>
+                  <h1 class="modalTitre">📚.Archiviste </h1>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -184,7 +210,7 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal ✨</h1>
+              <h1 class="modalTitre">💰 Crédits</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -197,55 +223,86 @@
           </div>
         </div>
     </div>
-        <!-- Modal_💰 -->
-        <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal 💰</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  ...
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-              </div>
-            </div>
+        <!-- Modal_✨ -->
+        <div
+      class="modal fade"
+      id="exampleModalToggle"
+      aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1"
+      style="display: none"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modalTitre" id="exampleModalToggleLabel">
+              Pi.ia ✨
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="Pifont">
+            Bonjour ! Je suis Pi, une intelligence artificielle conçue pour vous
+            aider dans vos tâches quotidiennes et vos projets. Mes
+            fonctionnalités incluent la réponse à vos questions, la fourniture
+            d'informations pertinentes, la création de code et la résolution de
+            problèmes. Ma conception a pour objectif de rendre votre vie plus
+            facile et plus productive en vous aidant à accéder aux connaissances
+            dont vous avez besoin et en automatisant certaines tâches. Je suis
+            ici pour vous aider, alors n'hésitez pas à me poser toutes les
+            questions qui vous viennent à l'esprit !</p>
+          </div>
+          <div class="modal-footer">
+            <button
+              class="btn btn-primary"
+              data-bs-target="#exampleModalToggle2"
+              data-bs-toggle="modal"
+            >
+              Open second modal
+            </button>
+          </div>
         </div>
-    </header>
-      <main>
-        <div class="card-contenair">
-        <section class="Io-input" id="html">
-          <div>
-            <img src="" alt="">
-            <div class="info">
-              <div class="cloud"></div>
-              <div class="note">INPUT</div>
-              <div class="groq">Groq</div>
-            </div>
-          </div>
-        </section>
-        <section class="iO-output" id="css">
-          <div>
-            <img src="" alt="">
-            <div class="info">
-              <div class="cloud">OUTPUT</div>
-              <div class="note">WINDOWS</div>
-              <div class="groq">groq</div>
-            </div>
-          </div>
-        </section>
       </div>
-      </main>
     </div>
-    <footer>cc by mc, neoFS & Pi.ia</footer>
-    <script src="src/js/intro.js"></script>
-    <script src="src/js/dev-EP.js"></script>
-    <script src="src/js/modals.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-</body>
-</html>
+    <div
+      class="modal fade"
+      id="exampleModalToggle2"
+      aria-labelledby="exampleModalToggleLabel2"
+      tabindex="-1"
+      style="display: none"
+      aria-hidden="true"
+    >
+    <div class="modal-dialog modal-dialog-centered">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modalTitre" id="exampleModalToggleLabel2">
+        ✨ Pi.ia
+      </h1>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="modal-body">
+      <textarea id="messageInput" rows="4" placeholder="Entrez votre message..."></textarea>
+      <div id="piResponse"></div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-primary" id="sendButton">Envoyer</button>
+    </div>
+    </div>
+<script>
+function handleSaveChanges() {
+  // Ajouter votre logique pour gérer les modifications apportées par l'utilisateur
+  console.log('Modifications enregistrées');
+}
+</script>
+
+    </header>

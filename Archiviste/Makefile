@@ -35,22 +35,10 @@ menu :
 
 MAGIC_TARGETS := codex build rep file script clean
 
+dev:
+
 all: $(MAGIC_TARGETS)
 
-srv : run start
-
-start:
-	@npm start
-run:
-	@node ./srv/srv.js
-
-
-update:
-	@echo "✨ Mise en état du dossier sur github✨"
-	@git add .
-	@git commit -m "test"
-	@git push
-	@echo "✨ Mise à jour terminée✨"
 
 init: gantt phase1 phase2 phase3 phase4 phase5 phase6 phase7 phase8
 # Magic COMPILER groq quantum

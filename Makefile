@@ -39,8 +39,6 @@ all: $(MAGIC_TARGETS)
 
 srv : run start
 
-start:
-	@npm start
 run:
 	@node ./srv/srv.js
 

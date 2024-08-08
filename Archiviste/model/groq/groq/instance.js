@@ -9,7 +9,7 @@ async function main() {
       {
         "role": "assistant",
         "name:"professor"
-        "content": ""
+        "content": "$prompt"
       }
     ],
     "model": "gemma-7b-it",

@@ -2,7 +2,6 @@ const fs = require("fs");
 const Groq = require("groq-sdk");
 const groq = new Groq();
 const OpenAI = require("openai");
-
 const openai = new OpenAI();
 
 

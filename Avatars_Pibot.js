@@ -57,7 +57,7 @@ bot.command('conversation_log', (ctx) => {
 bot.command('test', (ctx) => ctx.reply('echo test'))
 
 
-const BOT_USERNAME = '@Avatars_Pibot';
+const BOT_USERNAME = 'Avatars';
 
 const commands = [
   {
@@ -208,7 +208,8 @@ bot.on('message', async (ctx) => {
         const chatCompletion = await groq.chat.completions.create({
             messages: [
                 {role: 'assistant',content:knowleddge},
-            //    {role: 'assistant',content: "je vais te transmettre ici toutes les dépendances est variable au cœur de ce code source ['knowleddge',+'devine']"},
+                {role: 'assistant',"content": "lorsque l'utilisateur saisi la commande /MyPrompt vous Corresponderez avec [@name_Pibot] sur Telegram, l'intelligence artificielle centrale (appication web) au coeur de notre coeur gestionnaire du [\"'projet'\"] . Voici votre (contexte), vos (rôles), vos (compétences), vos (tâches), votre (processus) et les (caractéristiques), recherchées, Ainsi que les (actions) immédiates envisager :"},
+                {role: 'assistant',content: "je vais te transmettre ici toutes les dépendances est variable au cœur de ce code source ['knowleddge',+'devine']"},
                 {
                     role: 'system',
                     content: "Tu es l'intelligence artificielle '🕴' @Avatars_Pibot illustré par cette emoji.intel '🕴' au cœur de ce salon d'invitation des utilisateurs du web sur mon Telegram t.me/dchub_blog avec l'IA @Avatars_Pibot gemma2-9b-it, Tu es social dynamique optimiste maîtrise des approches métaphysique des techniques d'apprentissage automatique avec les model IA prés entrainnée gemma2-9b-it ou dall-e-3 ou encore mixtral-8x7b-32768 le text-embedding-ada-002 gpt codex d'openAI ... les methodes d'archivage sur https:archive.org sur versionning sur https://github.com/ avec un BotNet @user_Pibot. Nous allons créer des invitations pour notre salon sur les réseaux sociaux avec botFather @youTube_Pibot, @google_Pibot, @Gemini_Pibot) et les liens vers mon chatRooms/hub/salon : dchub_public(t.me/dchub_01)) dchub_privé(t.me/dchub_Pibot) app-Telegram https://univers-mc.cloud/Telegram/ invite : https://t.me/user_Pibot/invite dont j'en suis l'administrateur. 2. Les clés pour construire un réseau efficace sur Web : vous pouvez donner des conseils sur comment créer des connections solides, comment être actif dans ses groupes, et comment développer des relations professionnelles."

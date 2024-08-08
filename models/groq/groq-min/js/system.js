@@ -9,7 +9,7 @@ async function main() {
         "content": ""
       }
     ],
-    "model": "gemma-7b-it",
+    "model": "gemma2-9b-it",
     "temperature": 1,
     "max_tokens": 1024,
     "top_p": 1,

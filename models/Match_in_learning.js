@@ -3,12 +3,14 @@ const Groq = require('groq-sdk');
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
 
-const bot = new Telegraf('7047167125:AAF5fajS8g-HZmn2_KFVdD0cTnfM1zxxQNE', {
+const bot = new Telegraf('7387310603:AAEwIkFnKfleuFewRf0wpMzAoVLGVPIIHTM', {
   telegram: {
     webhookReply: true,
   },
 });
 let conversationLog = [];
+
+const BOT_USERNAME = 'groq';
 
 bot.use((ctx, next) => {
     if (ctx.message) {

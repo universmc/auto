@@ -6,7 +6,7 @@ const { exec } = require('child_process');
 const fs = require('fs');
 const readline = require("readline");
 const Groq = require("groq-sdk");
-const id = require("./groq/llma");
+const id = require("./gen-readme.md");
 
 const app = express();
 

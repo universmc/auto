@@ -40,18 +40,15 @@
 alias config-repo='cd /.config/'  # Répertoire config
 
 # Chargement de groq depuis groq.sh
-if [ -f ~/.config/alias.sh ]; then
+if [ -f ~/.config/module.sh ]; then
     source ~/.config/module.sh
 fi
-# Chargement de groq et gcloud depuis lib.sh
-if [ -f ~/.config/lib.sh ]; then
-    source ~/.config/module.sh
+# Chargement de groq et gcloud depuis zsh.sh
+if [ -f ~/.config/zsh.sh ]; then
+    source ~/.config/zsh.sh
 fi
 
-
-development_prompt() {
-    PS1="%F{blue}$(date "+%H:%M:%S") Development Mode %F{green}💻 %F{yellow}:%~ %F{yellow}%# %f"
-}
+PS1="%F{blue}$(date "+%H:%M:%S") Development Mode %F{green}💻 %F{yellow}:%~ %F{yellow}%# %f"
 
 # alias pour la gestion des donée
 

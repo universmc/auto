@@ -1,0 +1,48 @@
+Great! I'm here to help with your Groq learning journey. Let's get started with the basics.
+
+Groq is a data processing language designed for querying and manipulating JSON-like data. It's known for its simplicity and efficiency. In fact, Groq boasts that it can process and analyze data up to 1000 times faster than other popular data processing languages.
+
+Let's start with a simple example to give you an idea of what Groq looks like:
+
+Imagine you have the following JSON data:
+```json
+[
+  {
+    "name": "Alice",
+    "age": 30,
+    "city": "New York"
+  },
+  {
+    "name": "Bob",
+    "age": 25,
+    "city": "Chicago"
+  }
+]
+```
+To select the `name` field for both objects, you would write the following Groq query:
+```scss
+.name
+```
+This will return:
+```css
+["Alice", "Bob"]
+```
+Now, let's make it more interesting. What if you want to select the `name` and `age` fields for people living in "New York"? Here's how you would do it:
+```bash
+.[]{name, age: .age}[city == "New York"]
+```
+This will return:
+```json
+[
+  {
+    "name": "Alice",
+    "age": 30
+  }
+]
+```
+I hope this gives you a taste of what Groq can do. Over the course, we'll dive deeper into the language, exploring more advanced features and techniques. Let me know if you have any questions or if there's anything specific you'd like to learn about. 😊
+
+🤖.emoji{💬$messages}: $?
+
+[📔.codex]:groq -D `HowToqgroq` [How to query data with Groq]
+```

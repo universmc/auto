@@ -1,0 +1,31 @@
+html, body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    display:flex;
+    width:255px;
+    height:255px;
+    background-color: rgba(31, 27, 35, 0.433);
+
+}
+.logo_midi {
+    width:255px;
+    height:255px;
+}
+.node {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width:10px;
+
+    background-color: aqua;
+}
+.nodeContenair {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}

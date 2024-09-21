@@ -1,0 +1,40 @@
+{
+  "BootCamP": [
+    {
+      "description": "Learn the basics of organizing BOOTCAMPT projects with GPT assistants",
+      "details": [
+        "Start with understanding the principles of BOOTCAMP HACKATHONS project organization",
+        "Study syntax, data types, and project structures"
+      ]
+    },
+    {
+      "description": "Study existing GPT _pro; ,org_ examples",
+      "details": [
+        "Examine existing examples",
+        "Understand features and syntax for week, week-end to bootCamp acme"
+      ]
+    },
+    {
+      "description": "Practice programming",
+      "details": [
+        "Apply acquired knowledge",
+        "Write prompts to solve problems or complete specific tasks"
+      ]
+    },
+    {
+      "description": "Master advanced features",
+      "details": [
+        "Explore advanced features of Grog",
+        "Study functions, classes, and modules",
+        "Create more complex programs"
+      ]
+    },
+    {
+      "description": "Share and receive feedback",
+      "details": [
+        "Share your code with the Grog community",
+        "Ask for feedback and advice to improve your skills and code"
+      ]
+    }
+  ]
+}

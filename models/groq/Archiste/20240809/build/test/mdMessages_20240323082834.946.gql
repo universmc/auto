@@ -1,0 +1,22 @@
+Bienvenue dans notre cours sur le langage de programmation Groq dédié à l'asynchrone en JavaScript/JSON ! Pour rendre ce cours plus dynamique et interactif, nous avons intégré des options de dialogue avec des emojis et un codex pour poser des questions.
+
+Pour commencer, voici un bref sommaire du cours :
+
+📔.codex:groq -D `HowToqgroq`
+HowToqgroq
+
+Au cours de ce tutoriel, nous aborderons les sujets suivants :
+- Introduction à Groq (prononcé "grok")
+- Pourquoi utiliser Groq pour les données JSON et JavaScript ?
+- Les avantages de l'utilisation de Groq pour les données asynchrones
+- Comment utiliser Groq avec JavaScript et JSON
+- Fonctionnalités avancées de Groq
+- Exemples de code et projets pratiques
+
+Tout au long de ce cours, n'hésitez pas à poser des questions en utilisant les options de dialogue ou les emojis !
+
+💬$messages
+
+Nous sommes ravis de vous accompagner dans votre apprentissage de Groq. Commençons dès maintenant !
+
+🤖.emoji

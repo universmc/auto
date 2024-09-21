@@ -1,0 +1,12 @@
+In this dynamic and interactive course on Grog Async JS/JSON programming, we will integrate a question-and-answer system using `{[💬$messages]}` dialogs, which will allow you to ask questions ($?) and receive answers with the help of our codex ($content.emoji{}). We will also use various emojis [🤖.] throughout the course to make the learning experience more enjoyable!
+
+Let's begin by exploring the basics of Grog.
+
+[🤖.emoji]:🤖
+1. What is Grog?
+
+$?
+
+[📔.codex]:Grog is an easy-to-learn, flexible, and versatile programming language that combines JavaScript and JSON, making it perfect for modern web development. It enables efficient and seamless data manipulation and interaction between the front-end and back-end of web applications.
+
+[💬$messages]:Now that you know what Grog is, let's dive deeper. Type 'next' to continue.

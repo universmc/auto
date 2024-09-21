@@ -1,0 +1,12 @@
+{
+  "name": "open-emb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dev-gql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

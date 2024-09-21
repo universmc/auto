@@ -1,0 +1,29 @@
+Bien sûr, nous pouvons ajouter une fonctionnalité de chat en direct avec des invites de questions ($?) dans le cadre de notre cours sur le langage de programmation Groq asynchrone JS/JSON. Les émojis peuvent également être utilisés pour améliorer l'expérience utilisateur.
+
+Pour commencer, nous pouvons définir un ensemble de règles pour l'utilisation des invites de questions et des émojis. Par exemple:
+
+* Les invites de questions ($?) peuvent être utilisées pour poser des questions aux participants sur le cours.
+* Les émojis peuvent être utilisés pour indiquer l'état d'une tâche ou pour exprimer une émotion.
+
+Voici un exemple de la façon dont nous pourrions intégrer ces fonctionnalités dans notre cours:
+
+[🤖.emoji]:[RUN]:[💬$messages] ($?) [📔.codex]
+
+Par exemple:
+
+[🤖.emoji]:[RUN]:[💬$messages] ($?) [📔.codex]
+Est-ce que tout le monde comprend le concept de base de Groq asynchrone JS/JSON? ($?)
+
+Si un participant a besoin de clarification, ils peuvent utiliser l'invite de question pour demander des éclaircissements. Par exemple:
+
+[💻.pi]:[$promptUser] ($?)
+Oui, mais comment fonctionnent les appels asynchrones dans Groq? ($?)
+
+Nous pouvons ensuite répondre à la question en utilisant une combinaison d'émojis et de texte. Par exemple:
+
+[🌴.Groq]:[RUN]:[$promptAssistant]
+Oui, les appels asynchrones dans Groq sont gérés par le langage lui-même, vous n'avez donc pas besoin de vous soucier de la gestion des appels asynchrones. ($ :)
+
+Nous pouvons continuer cette conversation aussi longtemps que nécessaire pour nous assurer que tous les participants comprennent le matériel.
+
+Qu'en pensez-vous? Êtes-vous d'accord avec ces règles pour l'utilisation des invites de questions et des émojis dans notre cours de Groq asynchrone JS/JSON?

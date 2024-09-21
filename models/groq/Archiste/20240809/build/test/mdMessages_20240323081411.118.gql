@@ -1,0 +1,30 @@
+phase[01-3]:[RUN]:[intégration des interactions]
+
+$questions:
+
+1. Qu'est-ce que Groq ?
+2. Comment fonctionne le langage Groq ?
+3. Quels sont les avantages à utiliser Groq ?
+4. Comment peut-on commencer à apprendre Groq ?
+5. Y a-t-il des ressources disponibles pour apprendre Groq ?
+
+[🤖.emoji]:
+
+1. 📚
+2. 💻
+3. 🚀
+4. 📝
+5. 🔎
+
+[💬.dial]:
+
+- user: $questions[0]
+- codex: $responses[0]
+- user: $questions[1]
+- codex: $responses[1]
+- user: $questions[2]
+- codex: $responses[2]
+- user: $questions[3]
+- codex: $responses[3]
+- user: $questions[4]
+- codex: $responses[4]

@@ -1,0 +1,13 @@
+C'est une excellente idée ! Intégrer des dialogues et des options de message dynamiques, ainsi que des émojis, rendra certainement le cours plus engageant et interactif pour les apprenants. Vous pouvez poser des questions pour vérifier la compréhension de l'utilisateur et fournir des commentaires en temps réel.
+
+Par exemple, lorsque vous présentez un nouveau concept, vous pouvez poser une question à l'utilisateur pour s'assurer qu'il a bien compris :
+
+[🤖.emoji]:💬 $messages[1] *Est-ce que tu as compris ce concept ? ($? oui/non)
+
+Si l'utilisateur répond non, vous pouvez fournir des éclaircissements supplémentaires ou des exemples pour aider à clarifier le concept.
+
+Vous pouvez également utiliser des émojis pour rendre le contenu plus visuel et attrayant. Par exemple, vous pouvez utiliser des émojis pour mettre en évidence des codes ou des commandes importantes.
+
+[📔.codex]:$content.emoji{const howToGroq = `groq` 🤖}
+
+En utilisant ces techniques, vous pouvez créer un cours plus dynamique et engageant qui maintiendra l'intérêt des apprenants et améliorera leur expérience d'apprentissage.

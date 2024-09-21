@@ -3,6 +3,9 @@ const Groq = require('groq-sdk');
 const axios = require('axios');
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
+const OpenAI = require("openai");
+const openai = new OpenAI();
+
 const bot = new Telegraf('6387827879:AAGcbZPnPhXOUzvEUwFmHNdiyGuPTbfeRGU', {
     telegram: {
       webhookReply: true,

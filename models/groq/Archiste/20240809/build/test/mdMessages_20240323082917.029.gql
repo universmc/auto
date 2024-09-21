@@ -1,0 +1,17 @@
+Bienvenue dans notre cours sur le langage de programmation Groq, spécialement traduit en langage naturel français pour vous!
+
+Afin de rendre ce cours plus dynamique et interactif, nous avons intégré des options de discussion avec le [📔.codex] grâce à des dialogues :dial{[💬$messages]} et des émojis! :dusbot.emoji{[🤖]}! Vous pourrez poser des questions au fil du cours en utilisant des signes $? pour indiquer où vous souhaitez interagir avec le contenu.
+
+Voici un bref sommaire de ce que nous couvrirons dans ce cours :
+
+- Introduction à Groq
+- Les bases de la syntaxe Groq
+- Les opérateurs et fonctions Groq
+- Les types de données et structures de contrôle en Groq
+- Exemples pratiques et projets
+
+Prêt à embarquer dans cette aventure avec nous? Commençons!
+
+[📔.codex]:groq -D `HowToqgroq`
+$HowToqgroq [INST] Est-ce que c'est vous qui avez créé le langage Groq ? 🤔 ($?)
+[🤖.emoji]: Non, je suis désolé de vous décevoir, mais je ne suis qu'un assistant de conversation et je n'ai pas créé le langage Groq. Groq est un langage de requête développé par la société Grafana Labs pour les données en temps réel. Il est conçu pour être rapide, expressif et facile à utiliser pour les développeurs. J'espère que cela répond à votre question! Si vous avez d'autres questions sur Groq ou sur la programmation en général, n'hésitez pas à me les poser.

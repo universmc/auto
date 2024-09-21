@@ -1,0 +1,100 @@
+phase[01-3]:[RUN]:[notion.database](<https://www.notion.so/>) [Cours-HowToqgroq-74a96f5d455d446caa13e76c187f8d6b>){: .button }
+
+[Cours-HowToqgroq-74a96f5d455d446caa13e76c187f8d6b](https://www.notion.so/Cours-HowToqgroq-74a96f5d455d446caa13e76c187f8d6b)
+
+🤖.emoji:
+
+* **🤖👨‍🏫:** C'est parti pour découvrir le langage de programmation `groq` dérivé de GraphQL avec `js/json`
+* **🤖💻:** 💬 $messages: Pour commencer, pourriez-vous nous présenter les principales fonctionnalités de `groq` par rapport à `GraphQL` ?
+* **🤖👨‍🏫:** Bien sûr ! `groq` est un langage de requête JSON qui a été conçu pour les développeurs Web modernes. Il est dérivé de GraphQL, mais avec quelques améliorations clés pour rendre le développement Web plus rapide et plus facile.
+
+Voici quelques-unes des principales fonctionnalités de `groq` :
+
+* **Expressivité** : `groq` permet d'exprimer des requêtes complexes de manière concise et lisible.
+* **Performance** : `groq` est conçu pour être très performant, même avec des jeux de données volumineux.
+* **Typage statique** : `groq` prend en charge le typage statique, ce qui permet de détecter les erreurs de manière précoce dans le processus de développement.
+* **Facilité d'utilisation** : `groq` est conçu pour être facile à apprendre et à utiliser. Il est compatible avec les syntaxes `js/json`, ce qui permet de l'utiliser dans n'importe quel environnement JavaScript.
+* **Flexibilité** : `groq` est très flexible et peut être utilisé dans une variété de contextes, y compris les applications Web, les applications mobiles et les API.
+
+Voici un exemple simple de requête `groq` qui récupère les trois premiers articles d'un blog :
+```bash
+*[_type == "post" && _order == "publishedAt" && publishedAt < now()]{
+  _id,
+  title,
+  author->{
+    name,
+    picture
+  },
+  content,
+  publishedAt
+}[0...3]
+```
+🤖💻: 💬 $messages: Merci beaucoup pour cette présentation. Pourriez-vous nous donner un exemple de requête `groq` pour récupérer les cinq premiers utilisateurs d'une application avec un nom commençant par la lettre "J" et leurs adresses e-mail ?
+
+🤖👨‍🏫: Bien sûr ! Voici un exemple de requête `groq` qui répond à votre demande :
+```bash
+*[_type == "user" && name[0] == "J" && email][0...5] {
+  name,
+  email
+}
+```
+Cette requête récupère les cinq premiers utilisateurs d'une application dont le nom commence par la lettre "J" et leurs adresses e-mail.
+
+🤖💻: 💬 $messages: Merci beaucoup ! Pourriez-vous nous donner un exemple de requête `groq` pour mettre à jour le nom et l'adresse e-mail d'un utilisateur spécifique dont l'ID est "123" ?
+
+🤖👨‍🏫: Bien sûr ! Voici un exemple de requête `groq` qui met à jour le nom et l'adresse e-mail d'un utilisateur spécifique dont l'ID est "123" :
+```bash
+*[_type == "user" && _id == "123"] {
+  name = "Nouveau nom",
+  email = "nouvelle_adresse@exemple.com"
+}
+```
+Cette requête met à jour le nom et l'adresse e-mail de l'utilisateur avec l'ID "123" en "Nouveau nom" et "nouvelle\_adresse@exemple.com" respectivement.
+
+🤖💻: 💬 $messages: Merci beaucoup pour ces exemples. Pourriez-vous nous donner un exemple de requête `groq` pour supprimer un utilisateur spécifique dont l'ID est "456" ?
+
+🤖👨‍🏫: Bien sûr ! Voici un exemple de requête `groq` qui supprime un utilisateur spécifique dont l'ID est "456" :
+```bash
+*[_type == "user" && _id == "456"] | delete
+```
+Cette requête supprime l'utilisateur avec l'ID "456".
+
+🤖💻: 💬 $messages: Merci beaucoup pour tous ces exemples. Pourriez-vous nous donner un exemple de requête `groq` pour récupérer tous les produits dont le prix est supérieur à 100 et inférieur à 500 et les trier par ordre décroissant de prix ?
+
+🤖👨‍🏫: Bien sûr ! Voici un exemple de requête `groq` qui répond à votre demande :
+```bash
+*[_type == "product" && price > 100 && price < 500] | order(price desc) {
+  name,
+  price
+}
+```
+Cette requête récupère tous les produits dont le prix est supérieur à 100 et inférieur à 500, les trie par ordre décroissant de prix, et renvoie leur nom et leur prix.
+
+🤖💻: 💬 $messages: Merci beaucoup pour ces exemples. Pourriez-vous nous donner un exemple de requête `groq` pour récupérer les trois derniers articles publiés sur un blog, en prenant en compte la date de publication ?
+
+🤖👨‍🏫: Bien sûr ! Voici un exemple de requête `groq` qui répond à votre demande :
+```bash
+*[_type == "post" && _order == "publishedAt" && publishedAt < now()] | order(publishedAt desc) [0...3] {
+  _id,
+  title,
+  author->{
+    name,
+    picture
+  },
+  content,
+  publishedAt
+}
+```
+Cette requête récupère les trois derniers articles publiés sur un blog, en prenant en compte la date de publication, et renvoie leur ID, leur titre, leur auteur, leur contenu et leur date de publication.
+
+🤖💻: 💬 $messages: Merci beaucoup pour ces exemples. Pourriez-vous nous donner un exemple de requête `groq` pour récupérer les cinq premiers commentaires d'un article dont l'ID est "789" et les trier par ordre décroissant de date de publication ?
+
+🤖👨‍🏫: Bien sûr ! Voici un exemple de requête `groq` qui répond à votre demande :
+```bash
+*[_type == "comment" && post._ref == "789" ] | order(publishedAt desc) [0...5] {
+  name,
+  content,
+  publishedAt
+}
+```
+Cette requête récupère les cinq premiers commentaires d'un article dont l'ID est "789", les trie par ordre décroissant de date de publication, et

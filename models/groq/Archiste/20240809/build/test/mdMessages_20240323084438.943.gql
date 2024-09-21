@@ -1,0 +1,20 @@
+Bien sûr, l'intégration de fonctionnalités interactives peut certainement améliorer l'expérience d'apprentissage. Voici comment nous pourrions procéder :
+
+[📔.codex]:$content.emoji{
+  '💬.$messages': 'Posez une question ou tapez "/?" pour obtenir de l'aide',
+  '🤖.emoji': 'Ajoutez des émojis pour rendre la conversation plus amusante',
+  '🤖.$gesture': 'Incluez des gestes pour rendre la conversation plus réaliste',
+  '🔎.search': 'Recherchez des termes spécifiques dans le cours',
+  '🔜.next': 'Passez à l'étape ou au chapitre suivant',
+  '🔝.back': 'Revenez à l'étape ou au chapitre précédent'
+}
+
+Par exemple, à certains moments du cours, vous pourriez poser une question pour vous assurer que les étudiants suivent toujours :
+
+💬 $messages: "Avez-vous déjà entendu parler de Groq auparavant ? N'hésitez pas à poser des questions si vous en avez."
+
+Et les étudiants peuvent répondre en utilisant les émojis fournis :
+
+🤖.emoji: "🤔"
+
+Cela rendra le cours plus engageant et dynamique, permettant aux étudiants de participer activement.
